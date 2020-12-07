@@ -1,0 +1,32 @@
+.brainRing-question-contex{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+  }
+  .brainRing-question{
+    max-width: 500px;
+  }
+  .brainRing-question-contex input{
+    max-width: 200px;
+  }
+  .brainRing-list{
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  .brainRing-list tr:nth-child(even) {
+    background-color: #eee;
+    cursor: pointer;
+  }
+  .brainRing-list tr:nth-child(odd) {
+   background-color: #fff;
+   cursor: pointer;
+  }
+  .brainRing-list th {
+    background-color: black;
+    color: white;
+    padding: 10px
+  }
+  .brainRing-list td{
+    padding: 10px 15px 10px 10px;
+  }

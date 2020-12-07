@@ -1,0 +1,175 @@
+input{
+  height: 30px;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 100%
+}
+label{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+button{
+  border: 0;
+  padding: 7px 10px;
+  /* margin: 0 auto 10px auto; */
+  /* font-size: 13px; */
+  border-radius: 3px;
+  background-color: var(--mainColor);
+  transition: 0.2s ease-in-out;
+}
+button:hover{
+  transform: scale(1.1);
+}
+/* .questions-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 150px;
+  margin-left: 10px;
+} */
+textarea{
+  margin-bottom: 20px;
+  height: 150px;
+  width: 100%;
+}
+.parol-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--aciqMain);
+  position: fixed;
+  z-index: 5;
+}
+.password{
+  margin: 30px auto;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.password p{
+  font-weight: bold;
+  font-size:20px;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.password input{
+  margin: 10px 0;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+#logIn{
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: var(--mainColor);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#logIn:hover{
+  /* color: white; */
+  transform: scale(1.1);
+}
+.shake{
+  animation: Shake 0.2s ;
+}
+@keyframes Shake{
+  0%{
+    transform: translateX(2px);
+  }
+  50%{
+    transform: translateX(-4px);
+  }
+  100%{
+    transform: translateX(2px);
+  }
+}
+.list-head{
+  text-align: center;
+}  
+.admin-container{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 50px solid var(--aciqMain);
+  border-bottom: none;
+}
+.link-container{
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* .link-container a, p{
+  margin-left: 50px;
+  text-decoration: underline;
+  cursor: pointer;
+} */
+.change-password{
+  position: relative;
+}
+.parol-box{
+  position: absolute;
+  width: 150px;
+  top: 40px;
+  left: 0;
+  display: none;
+  flex-direction: column;
+}
+.change-pass-btn{
+  border: 0;
+  margin: 0 auto;
+  color: white;
+  padding: 7px 10px;
+  font-size: 13px;
+  border-radius: 3px;
+  background-color: black;
+  /* transition: 0.2s ease-in-out; */
+}
+.change-pass-btn:hover{
+  transform: scale(1);
+}
+.parol-box input{
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+.admin-container-section{
+  display: flex;
+  flex-direction: column;
+  width:400px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 9px -2px rgba(0,0,0,0.51);
+  flex:0 0 calc(50% - 150px);
+  margin-top: 70px;
+}
+.project-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.about-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.event-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.news-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.red-btn{
+  background-color: red;
+  color: white;
+}

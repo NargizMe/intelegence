@@ -1,0 +1,62 @@
+.log-in-contex{
+    display: flex;
+    flex-direction: column;
+}
+.go-sign-in{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+}
+.go-sign-in:hover{
+    color: purple;
+}
+/* end of log-in */
+/* sign-in */
+.opa-message-box{
+    opacity: 1;
+}
+.sign-in-contex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.gender{
+    display: flex;
+    text-align: center;
+}
+#man, #woman{
+height: 15px;
+width: 20px;
+margin: 0 30px 20px 5px;
+}
+.fa-eye{
+    position: absolute;
+    top: 307px;
+    right: 13px;
+}
+.go-log-in{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+}
+.go-log-in:hover{
+    color: purple;
+}
+.shake{
+    animation: Shake 0.2s ;
+}
+@keyframes Shake{
+    0%{
+        transform: translateX(2px);
+    }
+    50%{
+        transform: translateX(-4px);
+    }
+    100%{
+        transform: translateX(2px);
+    }
+}

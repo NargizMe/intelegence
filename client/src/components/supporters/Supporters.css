@@ -1,0 +1,25 @@
+.supporters{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    background-color: var(--pealcolor);
+}
+.teas{
+    width: 130px;
+}
+.oil{
+    width: 240px;
+}
+.youth{
+    width: 170px;
+}
+.cinema{
+    width: 140px;
+}
+.mys{
+    width: 130px;
+}
+.supporter img{
+    width: 100%;
+}

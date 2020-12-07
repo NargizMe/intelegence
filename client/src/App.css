@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  /* --mainColor:#F4DE08; */
+  --mainColor:rgb(241, 218, 3);
+  --aciqMain:rgb(245, 252, 210);
+  --spacing:0.3px;
+  --pealcolor:rgb(219, 217, 217);
+}
+p{
+  line-height: 1.2;
+  letter-spacing: var(--spacing);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
